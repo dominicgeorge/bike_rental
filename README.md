@@ -9,6 +9,7 @@ Follow the instructions below to set up and run the project locally.
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - Python 3.x
 - `pip` (Python's package installer)
 
@@ -29,16 +30,16 @@ Make sure you have the following installed:
 #### On Windows
 
     .\module5-mini-project\Scripts\activate
-    
+
 #### On macOS/Linux
 
     source module5-mini-project/bin/activate
 
 ### Install the required dependencies
 
-   ```
-   pip install -r requirements.txt
-   ```
+```
+pip install -r requirements.txt
+```
 
 ### Running the Project
 
@@ -52,4 +53,6 @@ Once the environment is activated, run the main Python script:
     Predictions: [138.64]
 
 ### Model Saving
+
 The trained model will be saved in the `./models` directory as `pipeline.pkl` for later use.
+this is a test
