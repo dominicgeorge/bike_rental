@@ -4,8 +4,8 @@ import os
 
 class Config:
     """Configuration settings for the application."""
-    DATA_PATH = os.getenv('DATA_PATH', './data/')
-    MODEL_PATH = os.getenv('MODEL_PATH', './models/')
+    DATA_PATH = os.getenv('DATA_PATH', './datasets/')
+    MODEL_PATH = os.getenv('MODEL_PATH', './trained_models/')
     LOG_PATH = os.getenv('LOG_PATH', './logs/')
     
     # Model and training settings
